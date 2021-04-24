@@ -43,7 +43,8 @@ subscriber_permission = Permission(RoleNeed('subscriber'))
 @ subscriber_permission.require(http_exception=403)
 ```
 
-important links:
-https://pythonhosted.org/Flask-Principal/
-https://stackoverflow.com/questions/61939800/role-based-authorization-in-flask-login
-https://stackoverflow.com/questions/20069150/flask-principal-best-practice-of-handling-permissiondenied-exception
+# important links:
+
+*  https://pythonhosted.org/Flask-Principal/
+*  https://stackoverflow.com/questions/61939800/role-based-authorization-in-flask-login
+*  https://stackoverflow.com/questions/20069150/flask-principal-best-practice-of-handling-permissiondenied-exception
